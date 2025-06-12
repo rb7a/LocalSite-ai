@@ -203,6 +203,12 @@ export function WelcomeView({
                   <span className="text-xs text-gray-400">Makes non thinking models think</span>
                 </div>
               </SelectItem>
+               <SelectItem value="vue+quasar">
+                <div className="flex flex-col">
+                  <span>Vue + Quasar</span>
+                  <span className="text-xs text-gray-400">Optimized for Vue.js and Quasar Framework</span>
+                </div>
+              </SelectItem>
               <SelectItem value="custom">
                 <div className="flex flex-col">
                   <span>Custom System Prompt</span>
